@@ -83,11 +83,11 @@
 			<version>1.4</version>
 		</dependency>
 		<!--servlet -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>Javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
-		</dependency>
+		</dependency> -->
 		<!-- DB -->
 		<dependency>
 			<groupId>commons-dbcp</groupId>
@@ -121,12 +121,13 @@
 			<groupId>com.sun.mail</groupId>
 			<artifactId>javax.mail</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.oracle</groupId>
+		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc6 -->
+		<!-- https://mvnrepository.com/artifact/oracle/ojdbc6 -->
+		<!-- <dependency>
+			<groupId>oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
-			<version>12.1.0.1-atlassian-hosted</version>
-		</dependency>
-
+			<version>11.2.0.3</version>
+		</dependency> -->
 	</dependencies>
 
 	<build>
