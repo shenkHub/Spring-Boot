@@ -1,0 +1,109 @@
+2018-02-28 11:48:19.477  INFO 8580 --- [main] com.gtmc.Application                     : Starting Application on Hoperun-PC with PID 8580 (E:\WorkSpace\Spring-Boot\target\classes started by Hoperun in E:\WorkSpace\Spring-Boot)
+2018-02-28 11:48:19.482  INFO 8580 --- [main] com.gtmc.Application                     : No active profile set, falling back to default profiles: default
+2018-02-28 11:48:19.526  INFO 8580 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367ffa75: startup date [Wed Feb 28 11:48:19 CST 2018]; root of context hierarchy
+2018-02-28 11:48:20.915  INFO 8580 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-02-28 11:48:21.744  INFO 8580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2018-02-28 11:48:21.757  INFO 8580 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-28 11:48:21.758  INFO 8580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-28 11:48:21.883  INFO 8580 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-28 11:48:21.884  INFO 8580 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2361 ms
+2018-02-28 11:48:22.159  INFO 8580 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'CXFServlet' to [/gtms-ap/ap/*]
+2018-02-28 11:48:22.160  INFO 8580 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'CXFServlet' to [/services/*]
+2018-02-28 11:48:22.161  INFO 8580 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet CXFServlet was not registered (possibly already registered?)
+2018-02-28 11:48:22.164  INFO 8580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-28 11:48:22.164  INFO 8580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-28 11:48:22.164  INFO 8580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-28 11:48:22.164  INFO 8580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-28 11:48:22.448  INFO 8580 --- [main] o.a.c.w.s.f.ReflectionServiceFactoryBean : Creating Service {http://gtms.com/}NewHLDerCouponServiceImplService from class com.gtmc.model.service.coupon.NewHLDerCouponService
+2018-02-28 11:48:23.145  INFO 8580 --- [main] org.apache.cxf.endpoint.ServerImpl       : Setting the server's publish address to be /getNewHLDerCoupon
+2018-02-28 11:48:23.162  INFO 8580 --- [main] o.a.c.w.s.f.ReflectionServiceFactoryBean : Creating Service {http://gtms.com/}CouponInfoServiceImplService from class com.gtmc.model.service.coupon.CouponInfoService
+2018-02-28 11:48:23.204  INFO 8580 --- [main] org.apache.cxf.endpoint.ServerImpl       : Setting the server's publish address to be /couponInfoService
+2018-02-28 11:48:23.461  INFO 8580 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367ffa75: startup date [Wed Feb 28 11:48:19 CST 2018]; root of context hierarchy
+2018-02-28 11:48:23.527  INFO 8580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-28 11:48:23.528  INFO 8580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-28 11:48:23.553  INFO 8580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-28 11:48:23.554  INFO 8580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-28 11:48:23.591  INFO 8580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-28 11:48:23.725  INFO 8580 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-28 11:48:23.821  INFO 8580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2018-02-28 11:48:23.828  INFO 8580 --- [main] com.gtmc.Application                     : Started Application in 4.737 seconds (JVM running for 5.4)
+2018-02-28 11:48:26.843  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.s.i.c.NewHLDerCouponServiceImpl    : ======================G-club系统-全新汉兰达车主关怀活动领券開始。======================
+2018-02-28 11:48:26.846  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.s.i.c.NewHLDerCouponServiceImpl    : 输入参数打印
+用户手机号：18729363513
+车架号：[lvg123456]
+2018-02-28 11:48:26.846  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.s.i.c.NewHLDerCouponServiceImpl    : 车架号非空check开始
+2018-02-28 11:48:26.846  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.s.i.c.NewHLDerCouponServiceImpl    : 车架号非空check结束
+2018-02-28 11:48:26.846  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 全新汉兰达车主关怀活动Logic_领券开始
+2018-02-28 11:48:27.360  INFO 8580 --- [http-nio-8081-exec-1] com.gtmc.common.db.DBControl             : SQL=SELECT UID_GTMC FROM USER_LOGIN WHERE TEL_NO = ? AND DELETEFLAG = '0',PARAM=[18729363513],RESULT=1件
+2018-02-28 11:48:27.361  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 全新汉兰达车主关怀活动Logic_车架号去重开始
+2018-02-28 11:48:27.361  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 全新汉兰达车主关怀活动Logic_车架号去重结束
+2018-02-28 11:48:27.361  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 去重后车架号：[lvg123456]
+2018-02-28 11:48:27.361  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 全新汉兰达车主关怀活动Logic_check各车架号是否正确开始
+2018-02-28 11:48:27.363  INFO 8580 --- [http-nio-8081-exec-1] com.gtmc.common.db.DBControl             : SQL=SELECT UC.UID_GTMC FROM USER_CAR UC INNER JOIN TACT_ORDER_VEHICLE_BK TA ON UC.VINNO = TA.FRAMENO WHERE UC.UID_GTMC = ? AND UC.VINNO = ? AND TA.VEHICLENAMECODE = 'HLD-T' AND NVL(TA.SALESPART,'0') <> '5' AND TA.CANCELDATE IS NULL AND UC.DELETEFLAG = '0' AND TA.DELETEFLAG='0',PARAM=[443308, lvg123456],RESULT=0件
+2018-02-28 11:48:27.363  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 车架号不正确，车架号：lvg123456 统合管理ID：443308
+2018-02-28 11:48:27.363  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 全新汉兰达车主关怀活动Logic_check各车架号是否正确结束
+2018-02-28 11:48:27.363  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 车架号不正确
+2018-02-28 11:48:27.363  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.logic.coupon.NewHLDerCouponLogic   : 全新汉兰达车主关怀活动Logic_领券结束
+2018-02-28 11:48:27.366  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.s.i.c.NewHLDerCouponServiceImpl    : 输出结果打印
+提示信息:处理正常（10000）
+处理结果：10000
+领券结果：2
+车架号：[lvg123456]
+优惠券码：null
+2018-02-28 11:48:27.366  INFO 8580 --- [http-nio-8081-exec-1] c.g.m.s.i.c.NewHLDerCouponServiceImpl    : ======================G-club系统-全新汉兰达车主关怀活动领券结束。======================
+2018-02-28 11:53:01.824  INFO 4936 --- [main] com.gtmc.Application                     : Starting Application on Hoperun-PC with PID 4936 (E:\WorkSpace\Spring-Boot\target\classes started by Hoperun in E:\WorkSpace\Spring-Boot)
+2018-02-28 11:53:01.846  INFO 4936 --- [main] com.gtmc.Application                     : No active profile set, falling back to default profiles: default
+2018-02-28 11:53:01.936  INFO 4936 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367ffa75: startup date [Wed Feb 28 11:53:01 CST 2018]; root of context hierarchy
+2018-02-28 11:53:03.341  INFO 4936 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-02-28 11:53:04.379  INFO 4936 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2018-02-28 11:53:04.396  INFO 4936 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-28 11:53:04.398  INFO 4936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-28 11:53:04.524  INFO 4936 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-28 11:53:04.525  INFO 4936 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2592 ms
+2018-02-28 11:53:04.806  INFO 4936 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'CXFServlet' to [/gtms-ap/ap/*]
+2018-02-28 11:53:04.808  INFO 4936 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'CXFServlet' to [/services/*]
+2018-02-28 11:53:04.808  INFO 4936 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet CXFServlet was not registered (possibly already registered?)
+2018-02-28 11:53:04.812  INFO 4936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-28 11:53:04.812  INFO 4936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-28 11:53:04.812  INFO 4936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-28 11:53:04.812  INFO 4936 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-28 11:53:05.111  INFO 4936 --- [main] o.a.c.w.s.f.ReflectionServiceFactoryBean : Creating Service {http://gtms.com/}NewHLDerCouponServiceImplService from class com.gtmc.model.service.coupon.NewHLDerCouponService
+2018-02-28 11:53:05.681  INFO 4936 --- [main] org.apache.cxf.endpoint.ServerImpl       : Setting the server's publish address to be /getNewHLDerCoupon
+2018-02-28 11:53:05.700  INFO 4936 --- [main] o.a.c.w.s.f.ReflectionServiceFactoryBean : Creating Service {http://gtms.com/}CouponInfoServiceImplService from class com.gtmc.model.service.coupon.CouponInfoService
+2018-02-28 11:53:05.740  INFO 4936 --- [main] org.apache.cxf.endpoint.ServerImpl       : Setting the server's publish address to be /couponInfoService
+2018-02-28 11:53:06.019  INFO 4936 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367ffa75: startup date [Wed Feb 28 11:53:01 CST 2018]; root of context hierarchy
+2018-02-28 11:53:06.099  INFO 4936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-28 11:53:06.100  INFO 4936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-28 11:53:06.131  INFO 4936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-28 11:53:06.132  INFO 4936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-28 11:53:06.168  INFO 4936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-28 11:53:06.304  INFO 4936 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-28 11:53:06.362  INFO 4936 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2018-02-28 11:53:06.366  INFO 4936 --- [main] com.gtmc.Application                     : Started Application in 4.931 seconds (JVM running for 5.591)
+2018-03-01 14:33:27.768  INFO 17156 --- [main] com.gtmc.Application                     : Starting Application on Hoperun-PC with PID 17156 (E:\WorkSpace\Spring-Boot\target\classes started by Hoperun in E:\WorkSpace\Spring-Boot)
+2018-03-01 14:33:27.771  INFO 17156 --- [main] com.gtmc.Application                     : No active profile set, falling back to default profiles: default
+2018-03-01 14:33:27.819  INFO 17156 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367ffa75: startup date [Thu Mar 01 14:33:27 CST 2018]; root of context hierarchy
+2018-03-01 14:33:28.540  INFO 17156 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2018-03-01 14:33:29.353  INFO 17156 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2018-03-01 14:33:29.365  INFO 17156 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-03-01 14:33:29.366  INFO 17156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-03-01 14:33:29.486  INFO 17156 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-01 14:33:29.486  INFO 17156 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1670 ms
+2018-03-01 14:33:29.739  INFO 17156 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'CXFServlet' to [/gtms-ap/ap/*]
+2018-03-01 14:33:29.741  INFO 17156 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'CXFServlet' to [/services/*]
+2018-03-01 14:33:29.741  INFO 17156 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet CXFServlet was not registered (possibly already registered?)
+2018-03-01 14:33:29.744  INFO 17156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-01 14:33:29.745  INFO 17156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-01 14:33:29.745  INFO 17156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-01 14:33:29.745  INFO 17156 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-01 14:33:29.847  INFO 17156 --- [main] o.a.c.w.s.f.ReflectionServiceFactoryBean : Creating Service {http://gtms.com/}NewHLDerCouponServiceImplService from class com.gtmc.model.service.coupon.NewHLDerCouponService
+2018-03-01 14:33:30.564  INFO 17156 --- [main] org.apache.cxf.endpoint.ServerImpl       : Setting the server's publish address to be /getNewHLDerCoupon
+2018-03-01 14:33:30.831  INFO 17156 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367ffa75: startup date [Thu Mar 01 14:33:27 CST 2018]; root of context hierarchy
+2018-03-01 14:33:30.896  INFO 17156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-01 14:33:30.898  INFO 17156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-01 14:33:30.926  INFO 17156 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-01 14:33:30.927  INFO 17156 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-01 14:33:30.970  INFO 17156 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-01 14:33:31.101  INFO 17156 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-01 14:33:31.167  INFO 17156 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2018-03-01 14:33:31.172  INFO 17156 --- [main] com.gtmc.Application                     : Started Application in 3.784 seconds (JVM running for 4.477)
